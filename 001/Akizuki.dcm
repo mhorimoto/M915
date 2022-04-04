@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AE-PCA9306
+D Akizuki I2C bus bidirection voltage converter
+K I2C, Converter, Akizuki
+$ENDCMP
+#
+#End Doc Library
