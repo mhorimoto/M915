@@ -2,7 +2,11 @@
   "board": {
     "design_settings": {
       "defaults": {
+<<<<<<< HEAD
         "board_outline_line_width": 0.09999999999999999,
+=======
+        "board_outline_line_width": 0.049999999999999996,
+>>>>>>> f365bfe7944be012ef97fb7fd47af2e3110b6ef0
         "copper_line_width": 0.19999999999999998,
         "copper_text_italic": false,
         "copper_text_size_h": 1.5,
@@ -26,7 +30,11 @@
         "fab_text_size_v": 1.0,
         "fab_text_thickness": 0.15,
         "fab_text_upright": false,
+<<<<<<< HEAD
         "other_line_width": 0.15,
+=======
+        "other_line_width": 0.09999999999999999,
+>>>>>>> f365bfe7944be012ef97fb7fd47af2e3110b6ef0
         "other_text_italic": false,
         "other_text_size_h": 1.0,
         "other_text_size_v": 1.0,
@@ -37,7 +45,11 @@
           "height": 1.524,
           "width": 1.524
         },
+<<<<<<< HEAD
         "silk_line_width": 0.15,
+=======
+        "silk_line_width": 0.12,
+>>>>>>> f365bfe7944be012ef97fb7fd47af2e3110b6ef0
         "silk_text_italic": false,
         "silk_text_size_h": 1.0,
         "silk_text_size_v": 1.0,
@@ -48,9 +60,22 @@
           "min_clearance": 0.508
         }
       },
+<<<<<<< HEAD
       "diff_pair_dimensions": [],
       "drc_exclusions": [],
       "meta": {
+=======
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
+      "drc_exclusions": [],
+      "meta": {
+        "filename": "board_design_settings.json",
+>>>>>>> f365bfe7944be012ef97fb7fd47af2e3110b6ef0
         "version": 2
       },
       "rule_severities": {
@@ -93,12 +118,21 @@
         "zone_has_empty_net": "error",
         "zones_intersect": "error"
       },
+<<<<<<< HEAD
+=======
+      "rule_severitieslegacy_courtyards_overlap": true,
+      "rule_severitieslegacy_no_courtyard_defined": false,
+>>>>>>> f365bfe7944be012ef97fb7fd47af2e3110b6ef0
       "rules": {
         "allow_blind_buried_vias": false,
         "allow_microvias": false,
         "max_error": 0.005,
         "min_clearance": 0.0,
+<<<<<<< HEAD
         "min_copper_edge_clearance": 0.01,
+=======
+        "min_copper_edge_clearance": 0.075,
+>>>>>>> f365bfe7944be012ef97fb7fd47af2e3110b6ef0
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.19999999999999998,
@@ -108,12 +142,27 @@
         "min_track_width": 0.19999999999999998,
         "min_via_annular_width": 0.049999999999999996,
         "min_via_diameter": 0.39999999999999997,
+<<<<<<< HEAD
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
         "use_height_for_length_calcs": true
       },
       "track_widths": [],
       "via_dimensions": [],
+=======
+        "use_height_for_length_calcs": true
+      },
+      "track_widths": [
+        0.0,
+        0.25
+      ],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
+>>>>>>> f365bfe7944be012ef97fb7fd47af2e3110b6ef0
       "zones_allow_external_fillets": false,
       "zones_use_no_outline": true
     },
@@ -365,7 +414,11 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
+<<<<<<< HEAD
       "netlist": "",
+=======
+      "netlist": "001.net",
+>>>>>>> f365bfe7944be012ef97fb7fd47af2e3110b6ef0
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
@@ -393,7 +446,11 @@
     "meta": {
       "version": 1
     },
+<<<<<<< HEAD
     "net_format_name": "",
+=======
+    "net_format_name": "Pcbnew",
+>>>>>>> f365bfe7944be012ef97fb7fd47af2e3110b6ef0
     "ngspice": {
       "fix_include_paths": true,
       "fix_passive_vals": false,
@@ -410,6 +467,15 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
+<<<<<<< HEAD
   "sheets": [],
+=======
+  "sheets": [
+    [
+      "2538557f-f0e8-40da-8920-56df2c91e49c",
+      ""
+    ]
+  ],
+>>>>>>> f365bfe7944be012ef97fb7fd47af2e3110b6ef0
   "text_variables": {}
 }
