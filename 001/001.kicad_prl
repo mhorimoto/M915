@@ -1,8 +1,20 @@
 {
   "board": {
+<<<<<<< HEAD
     "active_layer": 0,
     "active_layer_preset": "All Copper Layers",
     "auto_track_width": true,
+=======
+<<<<<<< HEAD
+    "active_layer": 0,
+    "active_layer_preset": "All Copper Layers",
+    "auto_track_width": true,
+=======
+    "active_layer": 31,
+    "active_layer_preset": "All Copper Layers",
+    "auto_track_width": false,
+>>>>>>> f365bfe7944be012ef97fb7fd47af2e3110b6ef0
+>>>>>>> af6c5b24ccf5f8899c9331e1811fd66c741fbf0b
     "hidden_nets": [],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
