@@ -1,204 +1,10 @@
 {
   "board": {
     "design_settings": {
-      "defaults": {
-<<<<<<< HEAD
-        "board_outline_line_width": 0.049999999999999996,
-=======
-<<<<<<< HEAD
-        "board_outline_line_width": 0.09999999999999999,
-=======
-        "board_outline_line_width": 0.049999999999999996,
->>>>>>> f365bfe7944be012ef97fb7fd47af2e3110b6ef0
->>>>>>> af6c5b24ccf5f8899c9331e1811fd66c741fbf0b
-        "copper_line_width": 0.19999999999999998,
-        "copper_text_italic": false,
-        "copper_text_size_h": 1.5,
-        "copper_text_size_v": 1.5,
-        "copper_text_thickness": 0.3,
-        "copper_text_upright": false,
-        "courtyard_line_width": 0.049999999999999996,
-        "dimension_precision": 4,
-        "dimension_units": 3,
-        "dimensions": {
-          "arrow_length": 1270000,
-          "extension_offset": 500000,
-          "keep_text_aligned": true,
-          "suppress_zeroes": false,
-          "text_position": 0,
-          "units_format": 1
-        },
-        "fab_line_width": 0.09999999999999999,
-        "fab_text_italic": false,
-        "fab_text_size_h": 1.0,
-        "fab_text_size_v": 1.0,
-        "fab_text_thickness": 0.15,
-        "fab_text_upright": false,
-<<<<<<< HEAD
-        "other_line_width": 0.09999999999999999,
-=======
-<<<<<<< HEAD
-        "other_line_width": 0.15,
-=======
-        "other_line_width": 0.09999999999999999,
->>>>>>> f365bfe7944be012ef97fb7fd47af2e3110b6ef0
->>>>>>> af6c5b24ccf5f8899c9331e1811fd66c741fbf0b
-        "other_text_italic": false,
-        "other_text_size_h": 1.0,
-        "other_text_size_v": 1.0,
-        "other_text_thickness": 0.15,
-        "other_text_upright": false,
-        "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
-        },
-<<<<<<< HEAD
-        "silk_line_width": 0.12,
-=======
-<<<<<<< HEAD
-        "silk_line_width": 0.15,
-=======
-        "silk_line_width": 0.12,
->>>>>>> f365bfe7944be012ef97fb7fd47af2e3110b6ef0
->>>>>>> af6c5b24ccf5f8899c9331e1811fd66c741fbf0b
-        "silk_text_italic": false,
-        "silk_text_size_h": 1.0,
-        "silk_text_size_v": 1.0,
-        "silk_text_thickness": 0.15,
-        "silk_text_upright": false,
-        "zones": {
-          "45_degree_only": false,
-          "min_clearance": 0.508
-        }
-      },
-<<<<<<< HEAD
       "diff_pair_dimensions": [],
       "drc_exclusions": [],
-      "meta": {
-        "filename": "board_design_settings.json",
-=======
-<<<<<<< HEAD
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [],
-      "meta": {
-=======
-      "diff_pair_dimensions": [
-        {
-          "gap": 0.0,
-          "via_gap": 0.0,
-          "width": 0.0
-        }
-      ],
-      "drc_exclusions": [],
-      "meta": {
-        "filename": "board_design_settings.json",
->>>>>>> f365bfe7944be012ef97fb7fd47af2e3110b6ef0
->>>>>>> af6c5b24ccf5f8899c9331e1811fd66c741fbf0b
-        "version": 2
-      },
-      "rule_severities": {
-        "annular_width": "error",
-        "clearance": "error",
-        "copper_edge_clearance": "error",
-        "courtyards_overlap": "error",
-        "diff_pair_gap_out_of_range": "error",
-        "diff_pair_uncoupled_length_too_long": "error",
-        "drill_out_of_range": "error",
-        "duplicate_footprints": "warning",
-        "extra_footprint": "warning",
-        "footprint_type_mismatch": "error",
-        "hole_clearance": "error",
-        "hole_near_hole": "error",
-        "invalid_outline": "error",
-        "item_on_disabled_layer": "error",
-        "items_not_allowed": "error",
-        "length_out_of_range": "error",
-        "malformed_courtyard": "error",
-        "microvia_drill_out_of_range": "error",
-        "missing_courtyard": "ignore",
-        "missing_footprint": "warning",
-        "net_conflict": "warning",
-        "npth_inside_courtyard": "ignore",
-        "padstack": "error",
-        "pth_inside_courtyard": "ignore",
-        "shorting_items": "error",
-        "silk_over_copper": "warning",
-        "silk_overlap": "warning",
-        "skew_out_of_range": "error",
-        "through_hole_pad_without_hole": "error",
-        "too_many_vias": "error",
-        "track_dangling": "warning",
-        "track_width": "error",
-        "tracks_crossing": "error",
-        "unconnected_items": "error",
-        "unresolved_variable": "error",
-        "via_dangling": "warning",
-        "zone_has_empty_net": "error",
-        "zones_intersect": "error"
-      },
-<<<<<<< HEAD
-      "rule_severitieslegacy_courtyards_overlap": true,
-      "rule_severitieslegacy_no_courtyard_defined": false,
-=======
-<<<<<<< HEAD
-=======
-      "rule_severitieslegacy_courtyards_overlap": true,
-      "rule_severitieslegacy_no_courtyard_defined": false,
->>>>>>> f365bfe7944be012ef97fb7fd47af2e3110b6ef0
->>>>>>> af6c5b24ccf5f8899c9331e1811fd66c741fbf0b
-      "rules": {
-        "allow_blind_buried_vias": false,
-        "allow_microvias": false,
-        "max_error": 0.005,
-        "min_clearance": 0.0,
-<<<<<<< HEAD
-        "min_copper_edge_clearance": 0.075,
-=======
-<<<<<<< HEAD
-        "min_copper_edge_clearance": 0.01,
-=======
-        "min_copper_edge_clearance": 0.075,
->>>>>>> f365bfe7944be012ef97fb7fd47af2e3110b6ef0
->>>>>>> af6c5b24ccf5f8899c9331e1811fd66c741fbf0b
-        "min_hole_clearance": 0.25,
-        "min_hole_to_hole": 0.25,
-        "min_microvia_diameter": 0.19999999999999998,
-        "min_microvia_drill": 0.09999999999999999,
-        "min_silk_clearance": 0.0,
-        "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.19999999999999998,
-        "min_via_annular_width": 0.049999999999999996,
-        "min_via_diameter": 0.39999999999999997,
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-        "solder_mask_clearance": 0.0,
-        "solder_mask_min_width": 0.0,
->>>>>>> af6c5b24ccf5f8899c9331e1811fd66c741fbf0b
-        "use_height_for_length_calcs": true
-      },
       "track_widths": [],
-      "via_dimensions": [],
-<<<<<<< HEAD
-=======
-=======
-        "use_height_for_length_calcs": true
-      },
-      "track_widths": [
-        0.0,
-        0.25
-      ],
-      "via_dimensions": [
-        {
-          "diameter": 0.0,
-          "drill": 0.0
-        }
-      ],
->>>>>>> f365bfe7944be012ef97fb7fd47af2e3110b6ef0
->>>>>>> af6c5b24ccf5f8899c9331e1811fd66c741fbf0b
-      "zones_allow_external_fillets": false,
-      "zones_use_no_outline": true
+      "via_dimensions": []
     },
     "layer_presets": []
   },
@@ -411,6 +217,7 @@
       "wire_dangling": "error"
     }
   },
+  "legacy": [],
   "libraries": {
     "pinned_footprint_libs": [],
     "pinned_symbol_libs": []
@@ -448,15 +255,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-<<<<<<< HEAD
-      "netlist": "001.net",
-=======
-<<<<<<< HEAD
       "netlist": "",
-=======
-      "netlist": "001.net",
->>>>>>> f365bfe7944be012ef97fb7fd47af2e3110b6ef0
->>>>>>> af6c5b24ccf5f8899c9331e1811fd66c741fbf0b
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
@@ -484,15 +283,7 @@
     "meta": {
       "version": 1
     },
-<<<<<<< HEAD
-    "net_format_name": "Pcbnew",
-=======
-<<<<<<< HEAD
     "net_format_name": "",
-=======
-    "net_format_name": "Pcbnew",
->>>>>>> f365bfe7944be012ef97fb7fd47af2e3110b6ef0
->>>>>>> af6c5b24ccf5f8899c9331e1811fd66c741fbf0b
     "ngspice": {
       "fix_include_paths": true,
       "fix_passive_vals": false,
@@ -509,24 +300,11 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-<<<<<<< HEAD
   "sheets": [
     [
-      "764ce847-5333-445f-b427-354069e06dac",
+      "4c50cf1f-f9b4-470d-9327-02e67dd2b5d4",
       ""
     ]
   ],
-=======
-<<<<<<< HEAD
-  "sheets": [],
-=======
-  "sheets": [
-    [
-      "2538557f-f0e8-40da-8920-56df2c91e49c",
-      ""
-    ]
-  ],
->>>>>>> f365bfe7944be012ef97fb7fd47af2e3110b6ef0
->>>>>>> af6c5b24ccf5f8899c9331e1811fd66c741fbf0b
   "text_variables": {}
 }
